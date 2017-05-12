@@ -1,0 +1,355 @@
+/*css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*css styles */
+
+body {
+  width: 100%;
+}
+
+header {
+  height: 138px;
+  background-color: #57614e;
+}
+
+nav  {
+  width: 960px;
+  margin: 0 auto;  
+   
+}
+
+.navBar a {
+  display: inline-block;
+  float: right;
+  padding-top: 70px;
+  text-decoration: none;
+  font-size: 18px;
+  box-sizing: content-box;
+  
+}
+
+nav div img {
+  float: left;
+  padding-top: 40px;
+ 
+}
+
+nav a:link, a:visited {
+  color: #b8c6ac;
+  margin-left: 33px;
+}
+
+nav a:hover, a:active {
+  color: #ffffff;
+}
+
+.header_image {
+  background-color: #d9d9d9;
+  height: 403px;
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;
+  box-sizing: border-box;
+}
+
+.mainImage {
+
+  width: 960px;
+  margin: 15px auto 0 auto;
+  border: solid white 1px;
+  box-sizing: border-box;
+  box-shadow: 5px 0px 15px  #707070;
+
+}
+
+content {
+  display: block;
+  height: 215px;
+  background-color: #e5e5e5;
+  border-bottom:solid white 1px;
+}
+
+.mainContent {
+  width: 960px;
+  margin: 0 auto; 
+}
+
+.articleLeft {
+  float: left;
+  width: 650px;
+  height: 215px;
+  border-right:dotted gray 1px;
+  box-sizing: border-box;
+}
+
+.articleRight {
+  float:right;
+  width: 310px;
+  height: 215px;  
+}
+
+h1 {
+  font:  28px "Times New Roman", Times, serif;
+  color: #57614e;
+  padding-top: 27px;
+  padding-bottom: 28px;
+  padding-left: 11px;
+}
+
+.articleLeft p {
+  font:  14px "Times New Roman", Times, serif;
+  padding-left: 11px;
+  padding-right: 47px;
+  text-align: left;
+  line-height: 150%;
+  color: #626262;  
+}
+
+h2 {
+  font:  18px "Times New Roman", Times, serif;
+  color: #57614e;
+  padding-top: 37px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.articleRight p {
+  font:  14px "Times New Roman", Times, serif;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 150%;
+  color: #626262;
+}
+
+span {
+  float: right;
+  padding-top: 13px;
+}
+
+article {
+  height:434px;
+  background-color: #d9d9d9;
+  border-top: solid white 1px;
+  border-bottom: solid white 2px;
+  box-sizing: border-box;
+}
+
+.articleFrame {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  font: 18px "Times New Roman", Times, serif;
+  color: #57614e;
+  padding-top: 30px;
+  text-transform: uppercase;  
+}
+
+h4 {
+  font:  bold 14px "Times New Roman", Times, serif;
+  color: #626262; 
+}
+
+.part p {
+  font: 14px "Times New Roman", Times, serif;
+  color: #626262;
+  line-height: 150%;
+  padding-bottom: 15px;
+
+}
+
+.articleImages img {
+  padding-right: 22px;
+  padding-top: 26px;
+}
+
+article .part {
+  display: inline-block;
+  width: 214px;
+  float:left;
+  padding-right: 24px;
+  line-height: 150%;
+  padding-top: 25px;
+}
+.button {
+  font: bold 12px "Times New Roman", Times, serif;
+  padding: 6px;
+  background-color: #696969;
+  color: red;
+  text-decoration: none;
+}
+.contactInfoFrame {
+  width: 100%;
+  height: 208px;
+  background-color: #d9d9d9;
+  border-bottom: solid white 2px;
+  box-sizing: border-box;
+}
+
+.contactInfo {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.contactInfo_Left {
+  float: left;
+  max-width: 307px;
+  height: 208px;
+  padding-top: 32px;
+  padding-left: 18px;
+  padding-right: 34px;
+  border-right:dotted gray 1px;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+.contactInfo_Middle {
+  float: left;
+  max-width: 320px;
+  height: 208px;
+  padding-top: 32px;
+  padding-left: 31px;
+  padding-right: 65px;
+  border-right: dotted gray 1px;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+.contactInfo_Right {
+  float: left;
+  max-width: 333px;
+  height: 208px;
+  padding-top: 32px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  line-height: 150%;
+}
+
+h5 {
+  font:  bold 12px "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: #626262;
+  padding-bottom: 14px;
+}
+
+.contactInfo_Right p, .contactInfo_Middle p, .contactInfo_Left p {
+  font: 14px "Times New Roman", Times, serif;
+  color: #626262;
+  line-height: 150%;
+}
+
+.SendInfo {
+  font: 14px "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  padding: 6px;
+  background-color: #696969;
+  color: white;
+  text-decoration: none;
+}
+
+.part a:hover, a:active {
+  background-color: #484545;
+}
+
+.contactInfo_Right a: hover a:active {
+  background-color: #484545;
+}
+
+footer {
+  height: 43px;
+  background-color: #57614e;
+}
+
+.FooterBody {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer ul  {
+  padding-top: 14px;
+}
+
+footer ul li a  {
+  display: inline-block; 
+  float: left;
+}
+
+footer li a {
+  background: transparent url("../images/icon.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  padding-right: 8px;
+}
+
+.FaceBook {
+  background-position: 0 -111px;
+}
+
+.Twitter {
+  background-position: 0 -138px;
+}
+
+.Gmail {
+  background-position: 0 -166px;
+}
+
+.Pintrest {
+  background-position: 0 -195px;
+}
+
+footer p {
+  float: right;
+  font: 12px "Times New Roman", Times, serif;
+  color: #c2c4c0;
+  padding-top: 5px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+@media and (min-width: 100px) and (max-width: 1024px) {
+  body {
+    width: 90%;
+  }
+}

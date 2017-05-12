@@ -1,0 +1,242 @@
+@import url("whitespace-reset.css");
+
+/*header*/
+
+header {
+	min-width: 1263px;
+ 	height: 80px;
+ 	background-color: #435f9c;
+}
+
+h1 {
+	display: inline-block;
+ 	padding-top: 28px;
+ 	padding-left: 155px;
+}
+
+form {
+	float: right;
+	padding-right: 120px;
+}
+
+.email {
+	float: left;	
+	padding-right: 15px;
+	padding-top: 12px;
+}
+
+.password {
+ 	float: left;
+ 	padding-right: 17px;
+ 	padding-top: 12px;
+}
+
+.login  {
+	float: left;
+	/*padding-right: 70px;*/
+	padding-top: 35px;
+}
+
+.email input, .password input {
+ 	border: 1px solid black ;
+ 	width: 148px;
+ 	height: 21px;
+}
+
+.email label, .password label {
+ 	font: 12px helvetica, arial, sans-serif;
+ 	color: white;
+ 	display: inline-block;
+ 	padding-bottom: 6px;
+}
+
+.login input {
+ 	font: bold 12px helvetica, arial, sans-serif;
+ 	color: #ffffff;
+ 	border: 1px solid #29487d;
+	background-color: #4267b2;
+	width: 48px;
+ 	height: 24px;
+}
+
+.login input:hover, input:active {
+ 	background-color: #435f9c;
+}
+
+.ForgotPassword {
+ 	font: 12px helvetica, arial, sans-serif;
+ 	position: absolute;
+ 	right: 210px;
+ 	top: 60px;
+}
+
+.ForgotPassword a {
+ 	color: #9cabc6;
+    font: 12px helvetica, arial, sans-serif;
+ 	text-decoration: none;
+}
+
+.ForgotPassword a:hover {
+	text-decoration: underline;
+}
+
+
+/**main**/
+main {
+	min-width: 1263px;
+	height: 560px;
+	background-color: #edf0f5;
+}
+
+article {
+	display: inline-block;
+	height: 560px;
+	background-color: #edf0f5;
+}
+
+h2 {
+	font: bold 28px "Freight Sans Bold", helvetica, arial, sans-serif;
+	color: #333333;
+	line-height: 36px;
+	text-align: justify;
+	padding-top: 65px;
+	padding-left: 155px;
+}
+
+
+.TableLeft {
+	display: inline-block;
+	padding-left: 155px;
+	padding-top: 45px;
+
+}
+
+.TableLeft img {
+	padding-bottom: 20px;
+}
+
+.TableLeft tr td:nth-child(2) {
+	padding-left: 24px;
+}
+
+.TableLeft tr td:nth-child(2), .TableLeft tr td:nth-child(3) {
+	padding-bottom: 25px;
+}
+
+.FirstSentence{
+	font: bold 17px "Freight Sans Bold", Helvetica, Arial, sans-serif;
+	color: #33334b;
+}
+
+.SecondSentence {
+	padding-left: 14px;
+	font:  15px Helvetica, Arial, sans-serif;
+	color: #666666;
+}
+
+/**sign up**/
+section {
+	display: inline-block;
+	float: right;
+	padding-top: 25px;
+
+}
+
+section h3 {
+	padding-right: 305px;
+	padding-bottom: 15px;
+	font: bold 36px "Freight Sans Bold", Helvetica, Arial, sans-serif;
+	line-height: 85%;
+	
+}
+
+section h3 em {
+	font: normal 19px "Freight Sans", Helvetica, Arial, sans-serif;
+
+}
+
+section form input {
+	border: 1px solid  #bdc7d8;
+}
+
+section form input[placeholder] {
+	font: 18px Helvetica, Arial, sans-serif;
+	padding-left: 14px;
+	color: #a59999;
+}
+
+section form input:nth-child(1) {
+	display: inline-block;
+	height: 36px;
+	width: 200px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;               
+}
+
+section form input:nth-child(2) {
+	display: inline-block;
+	height: 36px;
+	width: 200px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+section form input:nth-child(3), section form input:nth-child(4), section form input:nth-child(5) {
+	display: block;
+	margin-top: 12px;
+	height: 36px;
+	width: 413px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.dropdown {
+	display: block;
+	clear: right;
+	width: 413px;
+	margin-top: 12px;
+	}
+
+.birthday {
+	font: 18px Helvetica, Arial, sans-serif;  
+	 
+}
+
+form dt {
+	padding-bottom: 4px;
+}
+
+select {
+	float: left;
+	border: 1px #bdc7d8 solid;
+	width: 70px;
+	height: 30px;
+	box-sizing: border-box;
+}
+
+select option {
+	padding-left: 14px;
+	text-align: center;
+}
+
+.whyBirthday {
+	font: 11px Helvetica, Arial, sans-serif;
+	float: left;
+	width: 160px;
+	height: 30px;
+	color: #3679be;
+	padding-left: 8px;
+	text-align: justify;
+	line-height: 125%;
+	text-decoration: none;
+}
+
+a.whyBirthday:hover {
+	text-decoration: underline;
+}
+
+
+
+
+

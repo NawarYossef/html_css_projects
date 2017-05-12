@@ -1,0 +1,199 @@
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+
+/*css styles*/
+
+
+header {
+  background:  url("../images/bg_body.gif") 50% 0 repeat;
+  height: 569px;
+  max-width: 100%;
+  font: normal 26px "avenir", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  width: 298px;
+  margin: 0 auto;
+  padding-top: 135px; 
+  padding-bottom: 126px;
+
+}
+
+nav {
+  width: 435px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+li a{
+  color: #cacaca;
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  
+
+}
+
+.projects {
+  padding-right: 66px;
+}
+
+.home {
+  padding-right: 87px;
+}
+
+
+.main {
+  display: block;
+  height: 816px;
+  background-color: #ffffff;
+}
+
+article {
+  max-width: 775px;
+  margin: 0 auto;
+}
+
+h2 {
+  width: 210px;
+  margin: 0 auto;
+  font: bold 36px "avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 38px;
+  color: #45494d;
+}
+
+h2:before,
+h2:after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
+p {
+  max-width: 725px;
+  font: normal 20px "avenir", Helvetica, Arial, sans-serif;
+  color: #45494d;
+  line-height: 125%;                
+  text-align: center;
+  padding-bottom: 132px;
+}
+
+article ul {
+  max-width: 740px;
+  margin: 0 auto;
+  
+}
+.kevin, .louis, .kasper {
+  padding-right: 60px; 
+}
+
+span {
+  font-size: 24px;
+  padding-left: 35px;
+  color: #3e59b2;
+}
+
+
+article li img {
+  display: block;
+  margin-bottom: 25px;
+}
+
+footer { 
+  max-width: 100%;
+  height: 300px;
+  background-color: #e7e7e7;
+}
+
+footer > p {
+  padding-top: 87px;
+  padding-bottom: 40px;
+  max-width: 506px;
+  margin: 0 auto;
+  font: normal 20px "avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #b2b2b2;
+}
+
+footer nav {
+  width: 557px;
+}
+
+footer li a {
+  width: 47px;
+  height: 46px;
+  background: transparent url(../images/icons_social-media.png) 0 0 no-repeat;
+}
+
+.twitter {
+  padding-right: 124px;
+
+}
+
+.facebook {
+  padding-right: 124px;
+  background-position: 0 -46px;
+}
+
+.email {
+  padding-right: 121px;
+  background-position: 0 -92px;
+}
+
+.blog {
+  background-position: 0 -138px;
+}
+
+@media (max-width: 875px) {
+  
+}
+
+@media (max-width: 768px) {
+
+  article li {
+    
+  }
+
+  article img {
+    display: inline-block;    
+
+  }
+
+  .kevin {
+    float: left;
+    
+    
+  }
+  .louis {
+    float: right;
+  
+  }
+  .kasper {
+    
+    float: left;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+
+
+}
+

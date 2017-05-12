@@ -1,0 +1,154 @@
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+
+/*css styles*/
+
+
+header {
+  background: url("../images/bg_body.gif") 50% 0 repeat;
+  height: 569px;
+  font: normal 26px "avenir", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  width: 298px;
+  margin: 0 auto;
+  padding-top: 135px; 
+  padding-bottom: 126px;
+
+}
+
+nav {
+  width: 435px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+li a{
+  color: #cacaca;
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  
+
+}
+
+ .projects {
+  padding-right: 66px;
+}
+
+.home {
+  padding-right: 87px;
+}
+
+.main {
+  display: block;
+  background-color: #ffffff;
+}
+
+.aboutUs, .founders {
+
+  text-align: center;
+  width: 768px;
+  margin: 0 auto
+}
+
+.aboutUs {
+  padding:123px 0 0 0;
+
+}
+
+.founders {
+  padding: 157px 0 142px 0; 
+}
+
+h2 {
+  color: #45494d;
+  font: bold 36px "avenir", Helvetica, Arial, sans-serif;
+}
+
+h2:before,
+h2:after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
+
+.h2_secondChild {
+  padding-bottom: 57px;
+}
+
+h3 {
+  color: #3e59b2;
+  font: bold 24px "avenir", Helvetica, Arial, sans-serif;
+  padding-top: 45px;
+  padding-bottom: 23px;
+}
+
+section > p {
+  font: normal 20px "avenir", Helvetica, Arial, sans-serif;
+  color: #45494d;
+  line-height: 125%;                
+  text-align: center;
+
+}
+
+footer { 
+  height: 300px;
+  background-color: #e7e7e7;
+}
+
+footer > p {
+  padding-top: 87px;
+  padding-bottom: 40px;
+  width: 500px;
+  margin: 0 auto;
+  font: normal 20px "avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #b2b2b2;
+}
+
+footer nav {
+  width: 557px;
+  margin: 0 auto;
+}
+
+footer li a {
+  width: 47px;
+  height: 46px;
+  background: transparent url(../images/icons_social-media.png) 0 0 no-repeat;
+}
+
+.twitter {
+  padding-right: 124px;
+
+}
+
+.facebook {
+  padding-right: 124px;
+  background-position: 0 -46px;
+}
+
+.email {
+  padding-right: 121px;
+  background-position: 0 -92px;
+}
+
+.blog {
+  background-position: 0 -138px;
+}
